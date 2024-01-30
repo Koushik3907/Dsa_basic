@@ -15,3 +15,4 @@ public static void main(String[] args) {
 	System.out.println(h);
 }
 }
+// Blocking Queue is used when there should be no null value present in the queue

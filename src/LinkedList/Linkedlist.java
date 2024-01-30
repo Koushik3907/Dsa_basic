@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	int op;
 	for(int i =0;i<100;i++) {
 		System.out.println("1.Add the Element(End)\n2.Delete the element(End)\n3.Add at specific pos\n"
-				+ "4.Delete at specific pos\n5.Add At Start\n6.Delete at Start\n7.Display");
+				+ "4.Delete at specific pos\n5.Add At Start\n6.Delete at Start\n7.Display\n8.Exit");
 		System.out.println("\nEnter the option");
 		op =sc.nextInt();
 		switch(op) {
@@ -77,6 +77,8 @@ public static void main(String[] args) {
 				System.out.println("No Elements are present");
 			}
 			break;
+		case 8:
+			System.exit(0);
 			default:
 				System.out.println("Invalid Entry");
 			
